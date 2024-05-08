@@ -24,6 +24,6 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    plugins: [HtmlWebpackPlugin({ title: 'D3 with TypeScript' })],
   },
+  plugins: [new HtmlWebpackPlugin({ title: 'D3 with TypeScript' })],
 };
